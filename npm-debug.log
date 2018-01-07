@@ -1,0 +1,274 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData gulp
+20 silly mapToRegistry name gulp
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'gulp',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'gulp',
+23 silly mapToRegistry   name: 'gulp',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/gulp
+25 silly fetchNamedPackageData laravel-elixir
+26 silly mapToRegistry name laravel-elixir
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'laravel-elixir',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'laravel-elixir',
+29 silly mapToRegistry   name: 'laravel-elixir',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/laravel-elixir
+31 silly fetchNamedPackageData bootstrap-sass
+32 silly mapToRegistry name bootstrap-sass
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'bootstrap-sass',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'bootstrap-sass',
+35 silly mapToRegistry   name: 'bootstrap-sass',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-sass
+37 verbose request uri https://registry.npmjs.org/bootstrap-sass
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 13:44:20
+40 verbose request id 25814c34fc152775
+41 http request GET https://registry.npmjs.org/bootstrap-sass
+42 verbose request uri https://registry.npmjs.org/laravel-elixir
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 13:44:21
+45 http request GET https://registry.npmjs.org/laravel-elixir
+46 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+47 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+48 verbose request uri https://registry.npmjs.org/gulp
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 13:44:21
+51 verbose etag W/"58834b38-1cc56"
+52 verbose lastModified Sat, 21 Jan 2017 11:51:20 GMT
+53 http request GET https://registry.npmjs.org/gulp
+54 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+55 info attempt registry request try #2 at 13:44:31
+56 http request GET https://registry.npmjs.org/bootstrap-sass
+57 info attempt registry request try #2 at 13:44:31
+58 http request GET https://registry.npmjs.org/laravel-elixir
+59 info attempt registry request try #2 at 13:44:31
+60 verbose etag W/"58834b38-1cc56"
+61 verbose lastModified Sat, 21 Jan 2017 11:51:20 GMT
+62 http request GET https://registry.npmjs.org/gulp
+63 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+64 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+65 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=socket hang up
+66 info attempt registry request try #3 at 13:45:31
+67 http request GET https://registry.npmjs.org/bootstrap-sass
+68 info attempt registry request try #3 at 13:45:31
+69 http request GET https://registry.npmjs.org/laravel-elixir
+70 info attempt registry request try #3 at 13:45:31
+71 verbose etag W/"58834b38-1cc56"
+72 verbose lastModified Sat, 21 Jan 2017 11:51:20 GMT
+73 http request GET https://registry.npmjs.org/gulp
+74 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=socket hang up
+74 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+74 silly fetchPackageMetaData     at Object.onceWrapper (events.js:290:19)
+74 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+74 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+74 silly fetchPackageMetaData     at Socket.socketOnEnd (_http_client.js:345:9)
+74 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+74 silly fetchPackageMetaData     at Socket.emit (events.js:185:7)
+74 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:974:12)
+74 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+74 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+74 silly fetchPackageMetaData  error for bootstrap-sass@^3.0.0 { Error: tunneling socket could not be established, cause=socket hang up
+74 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+74 silly fetchPackageMetaData     at Object.onceWrapper (events.js:290:19)
+74 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+74 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+74 silly fetchPackageMetaData     at Socket.socketOnEnd (_http_client.js:345:9)
+74 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+74 silly fetchPackageMetaData     at Socket.emit (events.js:185:7)
+74 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:974:12)
+74 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+74 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9) code: 'ECONNRESET' }
+75 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=socket hang up
+75 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+75 silly fetchPackageMetaData     at Object.onceWrapper (events.js:290:19)
+75 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+75 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+75 silly fetchPackageMetaData     at Socket.socketOnEnd (_http_client.js:345:9)
+75 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+75 silly fetchPackageMetaData     at Socket.emit (events.js:185:7)
+75 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:974:12)
+75 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+75 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9)
+75 silly fetchPackageMetaData  error for laravel-elixir@^5.0.0 { Error: tunneling socket could not be established, cause=socket hang up
+75 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+75 silly fetchPackageMetaData     at Object.onceWrapper (events.js:290:19)
+75 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+75 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+75 silly fetchPackageMetaData     at Socket.socketOnEnd (_http_client.js:345:9)
+75 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+75 silly fetchPackageMetaData     at Socket.emit (events.js:185:7)
+75 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:974:12)
+75 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+75 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:98:9) code: 'ECONNRESET' }
+76 silly get cb [ 304, undefined ]
+77 verbose etag https://registry.npmjs.org/gulp from cache
+78 verbose get saving gulp to C:\Users\Андрей\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+79 verbose correctMkdir C:\Users\Андрей\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+80 silly resolveWithNewModule gulp@3.9.1 checking installable status
+81 silly cache add args [ 'gulp@^3.9.1', null ]
+82 verbose cache add spec gulp@^3.9.1
+83 silly cache add parsed spec Result {
+83 silly cache add   raw: 'gulp@^3.9.1',
+83 silly cache add   scope: null,
+83 silly cache add   escapedName: 'gulp',
+83 silly cache add   name: 'gulp',
+83 silly cache add   rawSpec: '^3.9.1',
+83 silly cache add   spec: '>=3.9.1 <4.0.0',
+83 silly cache add   type: 'range' }
+84 silly addNamed gulp@>=3.9.1 <4.0.0
+85 verbose addNamed ">=3.9.1 <4.0.0" is a valid semver range for gulp
+86 silly addNameRange { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: false }
+87 silly mapToRegistry name gulp
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: 'gulp',
+90 silly mapToRegistry   scope: null,
+90 silly mapToRegistry   escapedName: 'gulp',
+90 silly mapToRegistry   name: 'gulp',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npmjs.org/gulp
+92 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+93 verbose get https://registry.npmjs.org/gulp not expired, no request
+94 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: true }
+95 silly addNameRange versions [ 'gulp',
+95 silly addNameRange   [ '0.0.1',
+95 silly addNameRange     '0.0.2',
+95 silly addNameRange     '0.0.3',
+95 silly addNameRange     '0.0.4',
+95 silly addNameRange     '0.0.5',
+95 silly addNameRange     '0.0.7',
+95 silly addNameRange     '0.0.8',
+95 silly addNameRange     '0.0.9',
+95 silly addNameRange     '0.1.0',
+95 silly addNameRange     '0.2.0',
+95 silly addNameRange     '1.0.0',
+95 silly addNameRange     '1.1.0',
+95 silly addNameRange     '1.2.0',
+95 silly addNameRange     '1.2.1',
+95 silly addNameRange     '2.0.0',
+95 silly addNameRange     '2.0.1',
+95 silly addNameRange     '2.1.0',
+95 silly addNameRange     '2.2.0',
+95 silly addNameRange     '2.3.0',
+95 silly addNameRange     '2.4.0',
+95 silly addNameRange     '2.4.1',
+95 silly addNameRange     '2.6.0',
+95 silly addNameRange     '2.6.1',
+95 silly addNameRange     '2.7.0',
+95 silly addNameRange     '3.0.0',
+95 silly addNameRange     '3.1.1',
+95 silly addNameRange     '3.1.2',
+95 silly addNameRange     '3.1.3',
+95 silly addNameRange     '3.1.4',
+95 silly addNameRange     '3.2.0',
+95 silly addNameRange     '3.2.1',
+95 silly addNameRange     '3.2.2',
+95 silly addNameRange     '3.2.3',
+95 silly addNameRange     '3.2.4',
+95 silly addNameRange     '3.2.5',
+95 silly addNameRange     '3.3.0',
+95 silly addNameRange     '3.3.1',
+95 silly addNameRange     '3.3.2',
+95 silly addNameRange     '3.3.4',
+95 silly addNameRange     '3.4.0',
+95 silly addNameRange     '3.5.0',
+95 silly addNameRange     '3.5.1',
+95 silly addNameRange     '3.5.2',
+95 silly addNameRange     '3.5.5',
+95 silly addNameRange     '3.5.6',
+95 silly addNameRange     '3.6.0',
+95 silly addNameRange     '3.6.1',
+95 silly addNameRange     '3.6.2',
+95 silly addNameRange     '3.7.0',
+95 silly addNameRange     '3.8.0',
+95 silly addNameRange     '3.8.1',
+95 silly addNameRange     '3.8.2',
+95 silly addNameRange     '3.8.3',
+95 silly addNameRange     '3.8.4',
+95 silly addNameRange     '3.8.5',
+95 silly addNameRange     '3.8.6',
+95 silly addNameRange     '3.8.7',
+95 silly addNameRange     '3.8.8',
+95 silly addNameRange     '3.8.9',
+95 silly addNameRange     '3.8.10',
+95 silly addNameRange     '3.8.11',
+95 silly addNameRange     '3.9.0',
+95 silly addNameRange     '3.9.1' ] ]
+96 silly addNamed gulp@3.9.1
+97 verbose addNamed "3.9.1" is a plain semver version for gulp
+98 silly cache afterAdd gulp@3.9.1
+99 verbose afterAdd C:\Users\Андрей\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+100 verbose correctMkdir C:\Users\Андрей\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+101 verbose afterAdd C:\Users\Андрей\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+102 silly rollbackFailedOptional Starting
+103 silly rollbackFailedOptional Finishing
+104 silly runTopLevelLifecycles Finishing
+105 silly install printInstalled
+106 verbose stack Error: tunneling socket could not be established, cause=socket hang up
+106 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+106 verbose stack     at Object.onceWrapper (events.js:290:19)
+106 verbose stack     at emitOne (events.js:96:13)
+106 verbose stack     at ClientRequest.emit (events.js:188:7)
+106 verbose stack     at Socket.socketOnEnd (_http_client.js:345:9)
+106 verbose stack     at emitNone (events.js:91:20)
+106 verbose stack     at Socket.emit (events.js:185:7)
+106 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+106 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+106 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+107 verbose cwd E:\OSPanel\domains\blog
+108 error Windows_NT 10.0.10586
+109 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+110 error node v7.4.0
+111 error npm  v4.0.5
+112 error code ECONNRESET
+113 error network tunneling socket could not be established, cause=socket hang up
+114 error network This is most likely not a problem with npm itself
+114 error network and is related to network connectivity.
+114 error network In most cases you are behind a proxy or have bad network settings.
+114 error network
+114 error network If you are behind a proxy, please make sure that the
+114 error network 'proxy' config is set properly.  See: 'npm help config'
+115 verbose exit [ 1, true ]
